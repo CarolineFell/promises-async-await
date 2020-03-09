@@ -1,7 +1,7 @@
 {
-  "name": "ajs",
+  "name": "promises-async-await",
   "version": "1.0.0",
-  "description": "",
+  "description": "**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -40,5 +40,16 @@
   },
   "dependencies": {
     "set-value": "^3.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarolineFell/promises-async-await.git"
+  },
+  "keywords": [
+    "promises"
+  ],
+  "bugs": {
+    "url": "https://github.com/CarolineFell/promises-async-await/issues"
+  },
+  "homepage": "https://github.com/CarolineFell/promises-async-await#readme"
 }
