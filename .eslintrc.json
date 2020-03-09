@@ -23,6 +23,10 @@
       "LabeledStatement",
       "WithStatement"
     ],
-    "no-tabs": 0
+    "no-tabs": 0,
+    "no-plusplus": [
+      "error", { 
+        "allowForLoopAfterthoughts": true
+    }]
   }
 }

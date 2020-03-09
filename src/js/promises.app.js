@@ -14,6 +14,6 @@ GameSavingLoader.load().then((saving) => {
     },
   } = JSON.parse(saving);
   const gameSaving = new GameSaving(id, created, { userId, userName, userLevel, userPoints });
-  console.log(gameSaving);
+  return gameSaving;
 })
-.catch((error) => { throw new Error(`An error occured: ${error}`) });
+  .catch((error) => { throw new Error(`An error occured: ${error}`); });
