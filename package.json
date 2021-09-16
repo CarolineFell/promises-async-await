@@ -39,7 +39,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "set-value": "^3.0.1"
+    "set-value": "^4.0.1"
   },
   "repository": {
     "type": "git",
